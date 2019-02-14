@@ -7,10 +7,11 @@ function Mostrar()
  años= document.getElementById("edad").value;
    solo=document.getElementById("estadoCivil").value;
 
-   if ( años<18 && solo== "Soltero")
+   if  ( años<18 && solo!= "Soltero")
+  
 
 
-   alert ("Es muy menor para ser soltero.");
+   alert ("Es muy menor para No ser soltero.");
 	
 
 
