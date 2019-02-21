@@ -73,7 +73,7 @@ function CalcularPrecio ()
         alert= ("importe a pagar" + importeFinal + "IIBB usted pago" + iibb)
 
         else
-        alert( "importe a pagar"  +importeFinal);
+        alert( "importe a pagar"  +importeFinal); 
         
 
 
@@ -85,3 +85,46 @@ function CalcularPrecio ()
 
  	
 }
+
+
+     {    switch (cantidad)
+         case 1:
+         case 2:
+         descuento =0
+         break;
+
+         case 3 
+         if ( marca == "ArgentinaLuz")
+         descuento = precio *15 /100  
+
+         else if (marca == "FelipeLamparas")
+         descuento = precio *10 /100;
+
+         else 
+         descuento = precio *5 /100
+         break;
+
+         case 4:
+       if (marca == "Argentinaluz) || marca == "FelipeLamparas")
+
+       else 
+       descuento = precio *20 /100;
+       break;
+
+       case 5:
+       if ( "marca== ArgentinaLuz")
+       descuento == precio * 40 /100
+
+       else 
+       descuento = precio * 30/ 100;
+       break;
+
+       default;
+
+       descuento= precio *50 /100;  
+
+
+
+         
+        
+     }
