@@ -1,23 +1,23 @@
 function Mostrar()
 {
 //tomo el mes 
-{ var mesDelAño = document.getElementById('mes').value;
+ var mesDelAño = document.getElementById('mes').value;
 
-var mes= enero }
 
-switch (mes)  {
 
-}
+switch (mesDelAño)  {
+
+
 
    case "Enero": 
     alert ( "Que comiencen bien el año"); 
     break;
     
-    case Marzo:
+    case "Marzo":
     alert ( "Que comiencen las clases"); 
     break;
    
-   case Julio:
+   case "Julio":
     alert ( "es invierno"); 
     break;   
 

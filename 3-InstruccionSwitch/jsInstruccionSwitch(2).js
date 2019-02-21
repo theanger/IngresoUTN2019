@@ -3,36 +3,36 @@ function Mostrar()
 //tomo el mes 
 var mesDelAnio = document.getElementById('mes').value;
 
-alert (mesDelAnio);
+//alert (mesDelAnio);
 
-var mes;
 
-switch ("mesDelAnio") {}
 
-case "Enero"
-case "febrero"
-case "marzo"
-case "abril"
-case "mayo"
-case "junio"
+switch (mesDelAnio) {  
+
+case "Enero":
+case "Febrero":
+case "Marzo":
+case "Abril":
+case "Mayo":
+case "Junio":
 
 alert ("Falta para el invierno");
 break; 
 
-case "julio"
-case "agosto"
+case "Julio":
+case "Agosto":
 
 alert ("abrigate hace frio");
 break;
 
-case "septiembre
-case "octubre"
-case "noviembre"
-case "diciembre"
+case "Septiembre":
+case "Octubre":
+case "Noviembre":
+case "Diciembre":
 alert ( "ya pasamos el frio, ahora calor");
 break; 
 
-
+ }
 
 
 
